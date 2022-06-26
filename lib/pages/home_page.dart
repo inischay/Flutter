@@ -11,8 +11,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        // backgroundColor: Colors.white,
+        // elevation: 0.0,    //shadow
+        // iconTheme: IconThemeData(color: Colors.black),
         // ignore: prefer_const_constructors
-        title: Text("Catalog App"),
+        title: Text("Catalog App", ),
       ),
       body: Center(
         child: Text("Welcome To $days Days Of Flutter By $name..."),
