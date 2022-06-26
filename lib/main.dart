@@ -19,7 +19,7 @@ class Myapp extends StatelessWidget {
       primarySwatch: Colors.purple, 
       fontFamily: GoogleFonts.lato().fontFamily,
       ),
-    // debugShowCheckedModeBanner: false, //for debug banner... 
+    debugShowCheckedModeBanner: false, //for debug banner... 
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
